@@ -18,8 +18,8 @@ for i in range (1,101):
 
 #Whoa. That Sucker's Huge
 sum = 0
-for i in range (0,500001, 2):
-    sum += 1
+for i in range (1,500001, 2):
+    sum += i
     print(sum)
 
 #Countdown by Fours
